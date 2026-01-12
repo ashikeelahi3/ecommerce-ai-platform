@@ -20,6 +20,24 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Sanity Setup
+
+To set up Sanity Studio, run:
+
+```bash
+pnpm create sanity@latest --project "SANITY_PROJECT_ID" --dataset "SANITY_DATASET" --template clean --typescript --output-path studio-ecommerce-ai-platform
+```
+
+you can find this command after creating the project on Sanity.
+
+If you encounter issues with Sanity Studio, install the required packages manually:
+
+```bash
+pnpm add @sanity/vision@4 sanity@4 @sanity/image-url@1 styled-components@6 next-sanity
+```
+
+Then access the Sanity Studio at [http://localhost:3000/studio](http://localhost:3000/studio).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

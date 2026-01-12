@@ -2,7 +2,13 @@
 export default function Home() {
   return (
     <div className="">
-      <h1>Hello World!</h1>
+      {/* Featured Products Carousel */}
+
+      {/* Page Banner */}
+
+      {/* Category Tiles */}
+
+      {/* Product Section */}
     </div>
   );
 }
